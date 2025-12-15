@@ -9,7 +9,7 @@ const experiences = [
     company: "NeuralKart Technologies Pvt Ltd",
     period: "Feb 2025 - May 2025",
     achievements: [
-      "Architected and deployed scalable full-stack AI applications across web and mobile platforms using React, Next.js, FastAPI, and PostgreSQL",
+      "Interned at NeuralKart, architected and deployed scalable full-stack AI applications across web and mobile platforms using React, Next.js, FastAPI, and PostgreSQL",
       "Engineered machine learning models with real-time inference capabilities for automated, data-driven insights",
       "Optimized CI/CD workflows with Docker, achieving a 50% reduction in deployment time",
       "Designed distributed architecture with RabbitMQ and Celery for async tasks, enhancing scalability",
@@ -21,7 +21,7 @@ const experiences = [
     company: "Student Project - DronAid",
     period: "Jan 2025 - Sep 2025",
     achievements: [
-      "Led DronAid team to participate in the prestigious UAS Challenge 2024 (Buckminster, UK), representing the project on an international stage",
+      "Served as Technical Project Lead for DronAid, leading the team to participate in the prestigious UAS Challenge 2024 (Buckminster, UK), representing the project on an international stage",
       "Developed a real-time telemetry system using Firebase and RESTful APIs for live drone monitoring",
       "Optimized web and mobile applications, achieving 40% faster load times via caching and lazy loading",
       "Implemented AI-powered autonomous route planning, enhancing drone navigation and obstacle avoidance",

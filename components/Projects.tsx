@@ -5,6 +5,30 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Diagnostic Insights Platform for Insurance Underwriters",
+    description: "AI-powered platform that analyzes medical diagnostic data to provide actionable insights for insurance underwriters, streamlining the underwriting process and reducing manual review time.",
+    tech: ["Python", "Machine Learning", "Data Analytics", "Flask", "PostgreSQL"],
+    period: "2024",
+    highlights: [
+      "Automated extraction and analysis of diagnostic reports",
+      "Reduced underwriting review time by 65%",
+      "Improved accuracy in risk assessment through ML models",
+      "Streamlined workflow for insurance underwriters",
+    ],
+  },
+  {
+    title: "Fraud Detection System",
+    description: "Advanced fraud detection system using machine learning algorithms to identify suspicious patterns and anomalies in insurance claims, preventing fraudulent activities.",
+    tech: ["Python", "PyTorch", "Scikit-learn", "Feature Engineering", "Anomaly Detection"],
+    period: "2024",
+    highlights: [
+      "Real-time fraud detection with high accuracy",
+      "Reduced false positives through advanced ML models",
+      "Automated flagging of suspicious claims",
+      "Significant cost savings for insurance companies",
+    ],
+  },
+  {
     title: "Real-time Anomaly Detection System",
     description: "Neural network-based intrusion detection system with high anomaly detection accuracy. Captures and processes live network traffic, performing multi-class classification for diverse attack types.",
     tech: ["PyShark", "PyTorch", "Scikit-learn"],
@@ -45,7 +69,7 @@ export default function Projects() {
           Featured Projects
         </motion.h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 lg:grid-cols-2">
           {projects.map((project, index) => (
             <motion.div
               key={index}

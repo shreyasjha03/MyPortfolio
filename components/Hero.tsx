@@ -85,7 +85,7 @@ export default function Hero() {
               <Mail size={20} />
             </motion.a>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/shreyasjha03"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -2 }}

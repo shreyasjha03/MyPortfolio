@@ -54,9 +54,9 @@ export default function About() {
           </p>
 
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Currently interning at NeuralKart Technologies, I'm working on cutting-edge AI
-            applications while also leading the DronAid project for the UAS Challenge 2024.
-            I love solving complex problems and turning ideas into reality through code.
+            I previously interned at NeuralKart Technologies, where I worked on cutting-edge AI
+            applications, and led the DronAid project for the UAS Challenge 2024.
+            I enjoy solving complex problems and turning ideas into reality through code.
           </p>
         </motion.div>
       </div>
